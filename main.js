@@ -43,13 +43,4 @@ fsfBanner.innerHTML = `
 
 `;
 document.body.appendChild(fsfBanner);
-// Add GitHub repository link
-const footer = document.createElement('footer');
 
-// Add the disclaimer to the footer
-const disclaimer = document.createElement('p');
-disclaimer.textContent = 'This project is not associated with FSF.';
-footer.appendChild(disclaimer);
-
-// Append the footer to the body
-document.body.appendChild(footer);

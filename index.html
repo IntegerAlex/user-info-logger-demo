@@ -1,13 +1,81 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>userInfo() DEMo</title>
-  </head>
-  <body>
-    <div id="app"></div>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>userInfo() DEMo</title>
+  <link rel="icon" type="image/svg+xml" href="/vite.svg">
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0;
+      background-color: #f8f9fa; /* Light gray background */
+    }
+
+    .user-info {
+      max-width: 90%; /* Limit width for better readability */
+      padding: 20px;
+      background-color: #ffffff; /* White background */
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .user-info h1 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    .user-info pre {
+      font-family: monospace;
+      font-size: 14px;
+      white-space: pre-wrap;
+      word-wrap: break-word;
+    }
+
+    .js-logo {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      width: 100px;
+      height: auto;
+    }
+
+    .fsf-banner {
+      position: fixed;
+      bottom: 20px;
+      left: 20px;
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+      color: #000;
+    }
+
+    .fsf-banner img {
+      width: 200px; /* Adjusted size for better fit */
+      height: auto;
+      margin-right: 10px;
+    }
+
+    footer {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      padding: 10px 0;
+      background-color: #f8f9fa; /* Light gray background */
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div id="app" class="user-info"></div>
+
+  <footer>
+    <!-- <img src="/logo-fsf.org.png" alt="Free Software Foundation banner" class="fsf"/> -->
+    <p>This project is not associated with FSF.</p>
+  </footer>
+
   <script type="module" src="/main.js"></script>
+</body>
 </html>

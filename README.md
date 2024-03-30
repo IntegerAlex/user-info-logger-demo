@@ -1,8 +1,8 @@
 # User Info Logger Demo
 
 This is a simple demonstration of using the userInfo() function from the user-info-logger library to retrieve user information in a web browser environment. It uses Vite for the build process.
-[DEMO](https://user-info-logger-demo.vercel.app/)
-[PROJECT](https://github.com/IntegerAlex/user-info-logger)
+- [DEMO](https://user-info-logger-demo.vercel.app/)
+- [PROJECT](https://github.com/IntegerAlex/user-info-logger)
 
 ## Technical Details
 
